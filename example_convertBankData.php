@@ -8,7 +8,7 @@
  */
 
 $strAPIKey = 'xxxxxxxxxxxxxxxxxxxxx'; // gSales2 API KEY : Enable and generate API key in your gSales Installation: left main navi -> "Administration" -> "API"
-$strApiWsdlUrl = 'http://<domain>/gsales2/api/api.php?wsdl'; // gSales 2 API URL : Replace with your gSales installation URL
+$strApiWsdlUrl = 'http://meine_gsales_url/api/api.php?wsdl'; // gSales 2 API URL : Replace with your gSales installation URL
 $strUsername = 'xxx'; // iban-bic.com username
 $strPassword = 'xxx';// iban-bic.com password
 
