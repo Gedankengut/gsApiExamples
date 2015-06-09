@@ -1,7 +1,7 @@
 <?php
 
 $strAPIKey = 'xxxxxxxxxxxxxxxxxxxxx'; // Enable and generate API key in your gSales Installation: left main navi -> "Administration" -> "API"
-$strApiWsdlUrl = 'http://<domain>/gsales2/api/api.php?wsdl'; // Replace with your gSales installation URL
+$strApiWsdlUrl = 'http://meine_gsales_url/api/api.php?wsdl'; // Replace with your gSales installation URL
 
 ini_set("soap.wsdl_cache_enabled", "0");
 $client = new soapclient($strApiWsdlUrl);
